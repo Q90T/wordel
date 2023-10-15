@@ -23,7 +23,7 @@ Welcome to Wordle Clown, a simple and fun word-guessing game inspired by the pop
 1. Clone the repository to your local machine:
 2. Open the `index.html` file in your web browser.
 
-3. Start playing and creating mysteries!
+3. Start playing and have fun with your friends and family.
 
 
 ## Contact
