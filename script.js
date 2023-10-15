@@ -66,18 +66,22 @@ function storTrueWorde(){
 
 function isTrue(guss){
     console.log(guss);
-
+let j =0;
     for (let i =0+rowNum; i<5+rowNum; i++){
-        if(wordel.includes(guss[i-rowNum])){
-            if(guss[i-rowNum]===wordel[i]){
-                rowLetter[i].classList.toggle("letter_true");
+        if(wordel.includes(guss[j])){
+
+                if(guss[j]===wordel[j]){
+                    rowLetter[i].classList.toggle("letter_true");
+                }
+                else{
+                    rowLetter[i].classList.toggle("letter_elsewhere");
+                }
             }
-            else{
-                rowLetter[i].classList.toggle("letter_elsewhere");
-            }
-        }
+
         else{
             rowLetter[i].classList.toggle("letter_absent");
         }
-    }
+        j++;
+        }
 }
+    
