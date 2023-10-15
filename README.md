@@ -1,4 +1,4 @@
-# wordel
+# Wordel
 
 Welcome to Wordle Clown, a simple and fun word-guessing game inspired by the popular game Wordle. In Wordle Clown, players can create mystery words for their friends to guess, adding a playful twist to the traditional Wordle experience.
 
