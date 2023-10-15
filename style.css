@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+:root{
+    --black_1: #000;
+    --black_2:#222831;
+    --light_black:#393E46 ;
+    --white:#fff;
+    --dark_white:#EEEEEE;
+
+
+    /***************/
+
+    --letter-elsewhere:#F3C237;
+    --letter-absent:#A4AEC4;
+    --letter-ture:#3CB864;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--black_2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark_white);
+}
+h1{
+    font-size: 80px;
+}
+
+.game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.game_rows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-letter{
+    background-color: var(--dark_white);
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: var(--black_1);
+}
+
+.game #trueWorde{
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px;
+    background-color: var(--light_black);
+    color: var(--white);
+    font-size: 30px;
+
+}
+
+.gussing {
+    display: none;
+}
+
+
+/*letter colors*/
+
+
+.letter_absent{
+    background-color: var(--letter-absent);
+}
+
+.letter_elsewhere{
+    background-color: var(--letter-elsewhere);
+}
+
+.letter_true{
+    background-color: var(--letter-ture);
+}
