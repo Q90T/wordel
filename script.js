@@ -29,7 +29,8 @@ window.addEventListener('keydown', function (e) {
         }
         isTrue(theGuss);
         rowNum+=5;
-
+        result();
+        
     }
 
   }, false);
@@ -84,4 +85,11 @@ let j =0;
         j++;
         }
 }
-    
+let show=document.getElementById('show');
+
+function result(){
+    if(rowNum>25){
+        show.classList.toggle("show");
+        show.innerHTML="the worde is: "+ wordel;
+    }
+}
